@@ -132,7 +132,8 @@ checkKhodham.addEventListener("click", function () {
     const khodamName =
       khodamNames[Math.floor(Math.random() * khodamNames.length)];
     resultDiv.innerHTML = `<p>${name} memiliki khodam: </p><p style ="color: green; font-weight: bold;">${khodamName} </p>`;
-  } else {
-    resultDiv.innerHTML = `<p style = "color: red;">Maaf Nama ${name} tidak memiliki khodam. 🙏</p>`;
   }
+  //   else {
+  //     resultDiv.innerHTML = `<p style = "color: red;">Maaf Nama ${name} tidak memiliki khodam. 🙏</p>`;
+  //   }
 });
